@@ -63,7 +63,24 @@ function App() {
       </section>
       <br />
       <br />
+      
+
+      <section className="RecentArea">
+        <h2>Recent Study/Research Interest</h2>
+        <p>
+          My recent focus areas of study are C++, Parallel Programming,
+          Cuda, and Machine Learning. I am actively working on acquiring
+          foundational knowledge in C++ and will soon begin practicing on
+          LeetCode for hands-on coding experience. This will set the groundwork
+          for advanced techniques in Cuda and Parallel Programming. I anticipate
+          completing a course project this semester that involves parallelizing
+          an existing or unfinished project, which will significantly enhance my
+          parallel programming skills.
+        </p>
+      </section>
       <br />
+      <br />
+      
 
       <section className="Education">
         <h2>Education</h2>
@@ -78,7 +95,7 @@ function App() {
       </section>
       <br />
       <br />
-      <br />
+      
 
       <section className="Professional-Experience">
         <h2>Professional Experience</h2>
@@ -116,7 +133,6 @@ function App() {
           </p>
         </div>
       </section>
-      <br />
       <br />
       <br />
 
@@ -166,7 +182,6 @@ function App() {
       </section>
       <br />
       <br />
-      <br />
 
       <section className="Skills">
         <h2>Skills</h2>
@@ -179,7 +194,6 @@ function App() {
         <h3>Language Proficiencies:</h3>
         <p>Bilingual Fluency in Mandarin (Native) & English (Fluent)</p>
       </section>
-      <br />
       <br />
       <br />
 
