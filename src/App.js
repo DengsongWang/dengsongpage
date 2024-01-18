@@ -95,7 +95,7 @@ function App() {
       <section className="Education">
         <h2>Education</h2>
         <p>
-          <b>University of Toronto</b>, Meng in Electrical & Computer
+          <b>University of Toronto</b>, MEng in Electrical & Computer
           Engineering, 2023 - 2024
         </p>
         <p>
