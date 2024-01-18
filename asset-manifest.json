@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dengsongpage/static/css/main.37f6a0a5.css",
-    "main.js": "/dengsongpage/static/js/main.ddc80232.js",
+    "main.css": "/dengsongpage/static/css/main.a0cf745d.css",
+    "main.js": "/dengsongpage/static/js/main.b9e095e4.js",
     "static/js/787.f98c63ca.chunk.js": "/dengsongpage/static/js/787.f98c63ca.chunk.js",
-    "static/media/hezhao.jpg": "/dengsongpage/static/media/hezhao.29ecc1e25f66d023983a.jpg",
+    "static/media/hezhao.jpg": "/dengsongpage/static/media/hezhao.bfb8bf07707effbd25fe.jpg",
     "index.html": "/dengsongpage/index.html",
-    "main.37f6a0a5.css.map": "/dengsongpage/static/css/main.37f6a0a5.css.map",
-    "main.ddc80232.js.map": "/dengsongpage/static/js/main.ddc80232.js.map",
+    "main.a0cf745d.css.map": "/dengsongpage/static/css/main.a0cf745d.css.map",
+    "main.b9e095e4.js.map": "/dengsongpage/static/js/main.b9e095e4.js.map",
     "787.f98c63ca.chunk.js.map": "/dengsongpage/static/js/787.f98c63ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37f6a0a5.css",
-    "static/js/main.ddc80232.js"
+    "static/css/main.a0cf745d.css",
+    "static/js/main.b9e095e4.js"
   ]
 }
