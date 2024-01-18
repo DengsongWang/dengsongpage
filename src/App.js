@@ -30,36 +30,51 @@ function App() {
         </p>
         <p>WeChat: wds2876803389</p>
         <p>Discord: dylanwds</p>
+        <p>
+          GitHub:&nbsp;
+          <a
+            href="https://github.com/DengsongWang"
+            className="App-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            DengsongWang
+          </a>
+        </p>
+
       </header>
 
       <section className="About-me">
         <h2>About Me</h2>
         <p>
-          Yo! My name is Wang Dengsong, or you can call me by my English name
-          Dylan, many of my Chinese friends like to call me "Dailan", which is
-          also a homophonic of Dylan. I am from Tianjin, China, where I spent
-          the first 16 years of my life before moving to Canada on my own. I
-          went to high school in Toronto for two years ("Father John Redmond"
-          and "Bond Academy") and then went to the University of Ottawa for my
-          undergraduate degree. I started out in Mechanical Engineering, but
-          soon realized that I wasn't cut out for it, so I switched to CS with
-          little hesitation. Overall, I'm very happy with and enjoy my major,
-          and I love the city of Ottawa. I also met a lot of nice friends and my
-          girlfriend Sally (Love you!). I had a lot of ups and downs, but
-          overall I had a great time finishing my undergraduate program! Now,
-          I've returned to Toronto, where my dream began, and have joined my
-          dream school from high school days, the University of Toronto,
-          embarking on a brand new challenge. Having just arrived, I'm keen on
-          getting to know more classmates, experts, or bros to hang out with.
-          So, since you've landed on my homepage, why not add me on WeChat or
-          Discord and let's be friends!
+          Hi! My name is Dengsong Wang, or you can call me by my English name
+          Dylan. I was born and raised in Tianjin, China, where I spent 
+          the first 16 years of my life. I then moved to Canada on my own and 
+          completed my high school education at "Father John Redmond Catholic 
+          Secondary School" and "Bond Academy" in Toronto. Subsequently, I attended 
+          the University of Ottawa, initially majoring in Mechanical Engineering. 
+          However, as I delved deeper, I realized that Computer Science was more 
+          suited to my interests and skills, leading me to switch majors without 
+          hesitation. I thoroughly enjoy my field of study and have found a sense 
+          of belonging in the city of Ottawa.
         </p>
+        <p>  
+          During my undergraduate years, I met many exceptional friends and my girlfriend 
+          Sally, who added richness and color to my university life. Despite some ups 
+          and downs, I successfully and joyfully completed my undergraduate program.
+        </p>
+        <p>  
+          In September 2023, I returned to Toronto, where my dream had began, and joined my dream school 
+          from my high school days, the University of Toronto, to pursue the Master of Engineering 
+          in Electrical and Computer Engineering.  As a newcomer, I am eager to meet more 
+          classmates and industry experts, looking forward to learning and growing in this 
+          new journey.
+        </p>  
         <p>
-          Yo！我叫王登崧，或者你可以叫我的英文名Dylan。许多我的朋友都喜欢叫我“呆蓝”，也就是Dylan的谐音。我来自中国天津，在那里度过了我人生的前16年，之后独自来到了加拿大。我在多伦多上了两年高中（分别在Father
-          John Redmond和Bond
-          Academy），之后去了渥太华大学读本科。我在一开始选的是机械工程，但是很快我就意识到我不是这块料，所以几乎没有犹豫转到了CS。总的来说，我很满意也很喜欢我的专业，也很喜欢渥太华这个城市。我也遇到了许多很nice的朋友，以及我的女朋友杉杉
-          (亲亲)。虽然经历了不少坎坷，但是总的来说还是很快乐地读完了本科！现在，我又回到了多伦多，这个梦开始的地方，来到了我高中时的梦校多伦多大学，开始了一段全新的挑战。刚到这里，很希望多认识一些同学，大佬，或者玩伴。所以，既然你都看到我的主页了，那就加我的微信或者discord，交个朋友！
+          If you are interested in my background, or would like to discuss academic and technical topics, 
+          feel free to connect with me on email, WeChat or Discord. I look forward to interacting with you!
         </p>
+        
       </section>
       <br />
       <br />
@@ -68,14 +83,9 @@ function App() {
       <section className="RecentArea">
         <h2>Recent Study/Research Interest</h2>
         <p>
-          My recent focus areas of study are C++, Parallel Programming,
-          Cuda, and Machine Learning. I am actively working on acquiring
-          foundational knowledge in C++ and will soon begin practicing on
-          LeetCode for hands-on coding experience. This will set the groundwork
-          for advanced techniques in Cuda and Parallel Programming. I anticipate
-          completing a course project this semester that involves parallelizing
-          an existing or unfinished project, which will significantly enhance my
-          parallel programming skills.
+          I have chosen a CUDA programming course and a cloud computing course for the Winter 2024 term. 
+          At the same time, I will also focus on developing my skills in C and C++ languages, 
+          which will help in understanding and mastering CUDA programming.
         </p>
       </section>
       <br />
@@ -85,7 +95,7 @@ function App() {
       <section className="Education">
         <h2>Education</h2>
         <p>
-          <b>University of Toronto</b>, MEng in Electrical & Computer
+          <b>University of Toronto</b>, Meng in Electrical & Computer
           Engineering, 2023 - 2024
         </p>
         <p>
@@ -139,7 +149,7 @@ function App() {
       <section className="Projects">
         <h2>Projects</h2>
         <div className="Project-item">
-          <h3>Python (Deep Learning):</h3>
+          <h3>Deep Learning, Python:</h3>
           <p>
             In the honours project, used deep learning to study fake news
             detection, evaluating four models across nine social media datasets.
@@ -156,6 +166,17 @@ function App() {
             </a>
           </p>
 
+          <h3>Parallel Programming, C++:</h3>
+          <p>
+            Utilized parallel programming methods to parallelize a traditional Pac-Man game 
+            based on C++ language, transforming it into an automated game that accommodated 
+            multiple independent Pac-Men.
+            <br />
+            <a href="https://youtu.be/H49Ioxk-4nY" className="App-link">
+              https://youtu.be/H49Ioxk-4nY
+            </a>
+          </p>
+
           <h3>HTML/CSS, JavaScript & React:</h3>
           <p>
             Designed functional websites for virtual baking studio and
@@ -166,7 +187,7 @@ function App() {
             </a>
           </p>
 
-          <h3>Java (Android Studio):</h3>
+          <h3>Java:</h3>
           <p>
             Designed online service application for virtual vehicle rental
             company.
@@ -187,7 +208,7 @@ function App() {
         <h2>Skills</h2>
         <h3>Technical Proficiencies:</h3>
         <p>
-          Python, Deep Learning, Java, C++, HTML, CSS, JavaScript, React,
+          Python, Deep Learning, C, C++, Java, CUDA (in progress), HTML, CSS, JavaScript, React,
           PostgreSQL, Android Studio, Linux, Firebase, Git, Quartus, OpenAI &
           JSON
         </p>

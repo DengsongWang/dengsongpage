@@ -20,14 +20,14 @@ p {
     margin-bottom: 1rem;
 }
 .App-logo {
-  height: 40vmin;
+  height: 50vmin;
   margin-bottom: 1rem; 
 }
 
 
 .App-header {
   text-align: center;
-  background-color: #168bd8;
+  background-color: #005289;
   padding: 2rem 0; 
   margin-bottom: 2rem; 
   border-radius: 8px; 
@@ -35,7 +35,7 @@ p {
 }
 
 .App-header h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin: 10px 0;
 }
 
@@ -45,5 +45,5 @@ p {
 }
 
 .App-link:hover {
-  color: #0e2a38; 
+  color: #51b7d3; 
 }
