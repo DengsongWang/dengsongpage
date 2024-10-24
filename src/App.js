@@ -83,9 +83,7 @@ function App() {
       <section className="RecentArea">
         <h2>Recent Study/Research Interest</h2>
         <p>
-          I have chosen a CUDA programming course and a cloud computing course for the Winter 2024 term. 
-          At the same time, I will also focus on developing my skills in C and C++ languages, 
-          which will help in understanding and mastering CUDA programming.
+          
         </p>
       </section>
       <br />
