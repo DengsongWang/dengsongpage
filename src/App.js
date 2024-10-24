@@ -116,6 +116,10 @@ function App() {
           Engineering, 2023 - 2024
         </p>
         <p>
+        Courses taken: machine learning, NLP, Rust software system, parallel programming, CUDA programming, cloud computing 
+        </p>
+        <br />
+        <p>
           <b>University of Ottawa</b>, Honours Bachelor of Science, Computer
           Science (Data Science Option), 2019 - 2023
         </p>
@@ -130,32 +134,26 @@ function App() {
           <h3>Tianjin Artificial Intelligence Innovation Center</h3>
           <p>Research Intern, May 2021 - Aug 2021, Tianjin, China</p>
           <p>
-            ● Utilized Python-based deep neural networks to study pupil fixation
-            position recognition and trajectory judgement in wearable
-            eye-tracking devices, enhancing accuracy of user eye movement
-            predictions.
-            <br />● Verified effectiveness of Adaptive Batch Normalization
-            (AdaBN) in improving accuracy of cross-subject gaze estimation.
-            <br />● Developed Android Studio-based function to pre-calibrate
-            pupil position for pupil image collection program.
-            <br />● Successfully reduced deviation in gaze estimation to 50% in
-            cross-subject condition through in-depth collaborative research;
-            improved normality of newly collected eye images.
+            ● Used python-based deep neural networks to study pupil fixation position recognition and trajectory judgement 
+            in wearable eye-tracking devices, to improve the accuracy of user eye movement prediction. 
+            <br />● Successfully reduced deviation in gaze estimation to 50% in cross-subject conditions 
+            through collaborative research; improved normality of newly collected eye images.
+            <br />● Developed a function to pre-calibrate pupil position for pupil image collection program. 
+            <br />● Verified the effectiveness of Adaptive Batch Normalization (AdaBN) in improving accuracy of cross-subject gaze estimation. 
           </p>
 
           <h3>Matrix Innovations</h3>
           <p>Junior Programmer, Oct 2022 - Nov 2022, Remote</p>
           <p>
-            ● Collaborated with programming team to develop AI chatbot using
-            OpenAI API technologies.
-            <br />● Implemented ability for chatbot to provide specific answers
-            when users ask questions about stocks and investments.
+            ● Developed an AI chatbot using OpenAI API technologies. 
+            <br />● Implemented ability for chatbot to provide specific answers when users ask questions about stocks and investments.
             <br />
             <a
               href="https://github.com/DengsongWang/GPT-3-chatbot"
               className="App-link"
+              target="_blank"
             >
-              https://github.com/DengsongWang/GPT-3-chatbot
+              github link
             </a>
           </p>
         </div>
@@ -168,51 +166,57 @@ function App() {
         <div className="Project-item">
           <h3>Deep Learning, Python:</h3>
           <p>
-            In the honours project, used deep learning to study fake news
-            detection, evaluating four models across nine social media datasets.
-            Demonstrated superior performance of the BERT model on datasets like
-            ISOT and FakeNews, highlighting the importance of preprocessing
-            techniques and hyperparameter tuning in fake news detection and NLP
-            applications.
+            In the undergraduate graduation project, I used deep learning to study fake news detection, evaluating four models across nine social media datasets. Demonstrated superior performance of the BERT model on datasets like ISOT and FakeNews, highlighting the importance of preprocessing techniques and hyperparameter tuning in fake news detection and NLP applications.
             <br />
             <a
               href="https://github.com/DengsongWang/Honours-Project-code-files-"
               className="App-link"
+              target="_blank"
             >
-              https://github.com/DengsongWang/Honours-Project-code-files-
+              github link
             </a>
           </p>
 
+          <h3>CUDA</h3>
+          <p>
+            My team used the CUDA program to accelerate video encoding speed, and finally achieved up to 10 times improvement compared to the best CPU parallel algorithm Ffmpeg.
+            <br />
+            <a href="https://github.com/DengsongWang/ECE1782-Project/tree/main" className="App-link" target="_blank">
+              github link
+            </a>
+          </p>
+
+          <h3>3D Model Rendering</h3>
+          <p>
+          I Used Nerfstudio and 3D Gaussian to render a 3D model of a collection of images inside a room.
+            <br />
+            <a href="https://drive.google.com/file/d/1FgMqDFhKkjlSUYvebgTM1xfY6dEhZ_Rr/view?usp=drive_link" className="App-link" target="_blank">
+              demo video
+            </a>
+          </p>
+          
           <h3>Parallel Programming, C++:</h3>
           <p>
-            Utilized parallel programming methods to parallelize a traditional Pac-Man game 
-            based on C++ language, transforming it into an automated game that accommodated 
-            multiple independent Pac-Men.
+          My team used parallel programming methods to parallelize a Pac-Man game based on C++, transforming it into an automated game that accommodated multiple independent Pac-Men.
             <br />
-            <a href="https://youtu.be/H49Ioxk-4nY" className="App-link">
-              https://youtu.be/H49Ioxk-4nY
+            <a href="https://youtu.be/H49Ioxk-4nY" className="App-link" target="_blank">
+              demo video
             </a>
           </p>
 
           <h3>HTML/CSS, JavaScript & React:</h3>
           <p>
-            Designed functional websites for virtual baking studio and
-            veterinary hospital.
+            Designed a website for a virtual baking studio.
             <br />
-            <a href="https://DengsongWang.github.io/s5" className="App-link">
-              https://DengsongWang.github.io/s5
+            <a href="https://DengsongWang.github.io/s5" className="App-link" target="_blank">
+              web link
             </a>
           </p>
 
-          <h3>Java:</h3>
-          <p>
-            Designed online service application for virtual vehicle rental
-            company.
-          </p>
 
-          <h3>PostgreSql:</h3>
+          <h3>PostgreSQL:</h3>
           <p>
-            Designed and created dental clinic management system to help
+            My team designed and created dental clinic management system to help
             organization track appointments, staff information, patient
             information and inventories.
           </p>
@@ -239,15 +243,15 @@ function App() {
         <h2>My Hobbies</h2>
         <p>
           In sports, I like soccer, basketball, and snowboarding. My favorite
-          soccer teams are Barcelona and Manchester City, and players I'm fan of
-          Messi, Modric (surprising?), and Haaland. In basketball, I don't have
-          a particular team I like so much, but I like Kawhi Leonard. My
-          basketball playing style on the court resembles Jason Kidd who can't
-          dribble (not much of an aggressor). In my leisure, I enjoy gaming,
-          driving, or exploring new restaurants in Toronto I haven't tried. My
-          current dream is to land a decent-paying job after graduation, earn
-          enough to upgrade to a fiercer car, and still have time to play
-          basketball with friends.
+          soccer teams are Real Madrid and Manchester City, and players I'm fan of
+          Messi, Modric, Bellingham and Haaland. In basketball, I don't have
+          a particular team I like so much, but I like Kawhi Leonard. 
+        </p> 
+        <p> 
+          In my leisure, I like gaming, murder mystery game (剧本杀), or exploring new restaurants in Toronto. 
+          I play a lot of games, and recently I've been enjoying World of Warcraft, Baldur's Gate 3, TFT, Black Myth: Wukong. 
+          Other games I love include Mount & Blade II: Bannerlord, Elden Ring, Cyberpunk, GTA 5, Euro Truck Simulator 2, 
+          Red Dead Redemption II, and FIFA. I'm always open to playing or discussing any of these games with others!
         </p>
       </section>
     </div>

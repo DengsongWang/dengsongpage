@@ -27,7 +27,7 @@ p {
 
 .App-header {
   text-align: center;
-  background-color: #005289;
+  background-color: #198dda;
   padding: 2rem 0; 
   margin-bottom: 2rem; 
   border-radius: 8px; 
@@ -40,10 +40,18 @@ p {
 }
 
 .App-link {
-  color: #61dafb;
+  color: #0891b8;
   transition: color 0.3s ease; 
 }
 
 .App-link:hover {
-  color: #51b7d3; 
+  color: #054455; 
+}
+
+.App-header .App-link {
+  color: #535353; 
+}
+
+.App-header .App-link:hover {
+  color: #000000; 
 }
