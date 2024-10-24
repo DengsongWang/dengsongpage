@@ -80,10 +80,29 @@ function App() {
       <br />
       
 
-      <section className="RecentArea">
-        <h2>Recent Study/Research Interest</h2>
+      <section className="WorkPlan">
+        <h2>Job Intention</h2>
         <p>
-          
+        I will be graduating in December 2024 and am actively looking for full-time, contract, or internship positions immediately afterward. Ideally, I'd like to work in Ontario, preferably in the GTA area. I'm open to on-site, hybrid, and remote work arrangements. The roles that best match my 
+        skills include data analyst/engineer, software developer, NLP programmer, CUDA programmer, and cloud computing programmer.
+        </p>
+      </section>
+      <br />
+      <br />
+      
+      <section className="RecentStudy">
+        <h2>Recent Study plan</h2>
+        <p>
+        Recently, I've been focusing on strengthening my SQL skills, starting with MySQL and planning 
+        to transition to PostgreSQL soon. After building a solid foundation in MySQL, I believe the switch to 
+        PostgreSQL will be efficient. To gain practical experience, I'm solving SQL problems on LeetCode, 
+        which helps me understand real-world applications. As I approach graduation this December, I'm preparing to
+         apply for roles such as data analyst, data engineer, and positions related to my background in NLP and CUDA programming.
+        </p>
+        <p>
+        In my final semester, I'm also taking courses in NLP and Rust programming. By the end of December, 
+        I expect to have gained more knowledge and valuable project experience in these areas, which 
+        will guide my job search in related fields.
         </p>
       </section>
       <br />
