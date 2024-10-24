@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={face} className="App-logo" />
         <h1>
           Dengsong (Dylan) Wang
@@ -42,7 +42,44 @@ function App() {
           </a>
         </p>
 
-      </header>
+      </header> */
+      <header className="App-header">
+        <img src={face} className="App-logo" alt="Dengsong Wang" />
+        <br />
+        <h1>Dengsong (Dylan) Wang</h1>
+        <h2 style={{ marginTop: '10px' }}>王登崧</h2>
+        <br />
+        <p className="info-text">
+          Email:&nbsp;
+          <a href="mailto:dengsong.wang@mail.utoronto.ca" className="App-link">
+            dengsong.wang@mail.utoronto.ca
+          </a>
+        </p>
+        <p className="info-text">
+          LinkedIn:&nbsp;
+          <a
+            href="https://www.linkedin.com/in/dengsong-wang-2451bb1ab/"
+            className="App-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dengsong Wang
+          </a>
+        </p>
+        <p className="info-text">WeChat: wds2876803389</p>
+        <p className="info-text">Discord: dylanwds</p>
+        <p className="info-text">
+          GitHub:&nbsp;
+          <a
+            href="https://github.com/DengsongWang"
+            className="App-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            DengsongWang
+          </a>
+        </p>
+      </header>}
 
       <section className="About-me">
         <h2>About Me</h2>
@@ -229,9 +266,8 @@ function App() {
         <h2>Skills</h2>
         <h3>Technical Proficiencies:</h3>
         <p>
-          Python, Deep Learning, C, C++, Java, CUDA (in progress), HTML, CSS, JavaScript, React,
-          PostgreSQL, Android Studio, Linux, Firebase, Git, Quartus, OpenAI &
-          JSON
+        Python, SQL, Deep Learning, NLP, Machine learning, 
+        CUDA programming, NLP, C/C++, Java, Data analysis, HTML, CSS, JavaScript, React, Node.js, Linux, Git, OpenAI API 
         </p>
         <h3>Language Proficiencies:</h3>
         <p>Bilingual Fluency in Mandarin (Native) & English (Fluent)</p>
