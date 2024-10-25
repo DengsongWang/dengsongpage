@@ -3,46 +3,10 @@ import "./App.css";
 
 function App() {
   return (
+    
     <div className="App">
-      {/* <header className="App-header">
-        <img src={face} className="App-logo" />
-        <h1>
-          Dengsong (Dylan) Wang
-          <br />
-          王登崧
-        </h1>
-        <p>
-          Email:&nbsp;
-          <a href="mailto:dengsong.wang@mail.utoronto.ca" className="App-link">
-            dengsong.wang@mail.utoronto.ca
-          </a>
-        </p>
-        <p>
-          LinkedIn:&nbsp;
-          <a
-            href="https://www.linkedin.com/in/dengsong-wang-2451bb1ab/"
-            className="App-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Dengsong Wang
-          </a>
-        </p>
-        <p>WeChat: wds2876803389</p>
-        <p>Discord: dylanwds</p>
-        <p>
-          GitHub:&nbsp;
-          <a
-            href="https://github.com/DengsongWang"
-            className="App-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            DengsongWang
-          </a>
-        </p>
-
-      </header> */
+      
+      
       <header className="App-header">
         <img src={face} className="App-logo" alt="Dengsong Wang" />
         <br />
@@ -79,7 +43,7 @@ function App() {
             DengsongWang
           </a>
         </p>
-      </header>}
+      </header>
 
       <section className="About-me">
         <h2>About Me</h2>
@@ -94,20 +58,17 @@ function App() {
           suited to my interests and skills, leading me to switch majors without 
           hesitation. I thoroughly enjoy my field of study and have found a sense 
           of belonging in the city of Ottawa.
-        </p>
-        <p>  
+          <br /><br />
           During my undergraduate years, I met many exceptional friends and my girlfriend 
           Sally, who added richness and color to my university life. Despite some ups 
           and downs, I successfully and joyfully completed my undergraduate program.
-        </p>
-        <p>  
+          <br /><br /> 
           In September 2023, I returned to Toronto, where my dream had began, and joined my dream school 
           from my high school days, the University of Toronto, to pursue the Master of Engineering 
           in Electrical and Computer Engineering.  As a newcomer, I am eager to meet more 
           classmates and industry experts, looking forward to learning and growing in this 
           new journey.
-        </p>  
-        <p>
+          <br /><br />
           If you are interested in my background, or would like to discuss academic and technical topics, 
           feel free to connect with me on email, WeChat or Discord. I look forward to interacting with you!
         </p>
@@ -120,8 +81,12 @@ function App() {
       <section className="WorkPlan">
         <h2>Job Intention</h2>
         <p>
-        I will be graduating in December 2024 and am actively looking for full-time, contract, or internship positions immediately afterward. Ideally, I'd like to work in Ontario, preferably in the GTA area. I'm open to on-site, hybrid, and remote work arrangements. The roles that best match my 
-        skills include data analyst/engineer, software developer, NLP programmer, CUDA programmer, and cloud computing programmer.
+        I will be graduating in December 2024 and am actively looking for full-time, 
+        contract, or internship positions immediately afterward. Ideally, I'd like 
+        to work in Ontario, preferably in the GTA area. I'm open to on-site, hybrid, 
+        and remote works. <br /><br />
+        The roles that best match my skills include data analyst/engineer, software 
+        developer, NLP programmer, CUDA programmer, and cloud computing programmer.
         </p>
       </section>
       <br />
@@ -130,13 +95,12 @@ function App() {
       <section className="RecentStudy">
         <h2>Recent Study plan</h2>
         <p>
-        Recently, I've been focusing on strengthening my SQL skills, starting with MySQL and planning 
+        Recently, I've been focusing on improve my SQL skills, starting with MySQL and planning 
         to transition to PostgreSQL soon. After building a solid foundation in MySQL, I believe the switch to 
         PostgreSQL will be efficient. To gain practical experience, I'm solving SQL problems on LeetCode, 
         which helps me understand real-world applications. As I approach graduation this December, I'm preparing to
-         apply for roles such as data analyst, data engineer, and positions related to my background in NLP and CUDA programming.
-        </p>
-        <p>
+         apply for roles such as data analyst, data engineer, or positions related to my background in NLP and CUDA programming.
+         <br /><br />
         In my final semester, I'm also taking courses in NLP and Rust programming. By the end of December, 
         I expect to have gained more knowledge and valuable project experience in these areas, which 
         will guide my job search in related fields.
@@ -147,20 +111,30 @@ function App() {
       
 
       <section className="Education">
-        <h2>Education</h2>
-        <p>
-          <b>University of Toronto</b>, MEng in Electrical & Computer
-          Engineering, 2023 - 2024
-        </p>
-        <p>
-        Courses taken: machine learning, NLP, Rust software system, parallel programming, CUDA programming, cloud computing 
-        </p>
-        <br />
-        <p>
-          <b>University of Ottawa</b>, Honours Bachelor of Science, Computer
-          Science (Data Science Option), 2019 - 2023
-        </p>
-      </section>
+  <h2>Education</h2>
+  <div className="education-item">
+    <h3>University of Toronto</h3>
+    <p>MEng in Electrical & Computer Engineering, 2023 - 2024</p>
+    <p>Courses taken:</p>
+    <ul>
+    
+    <ul className="courses-list">
+      <li>Machine learning</li>
+      <li>NLP</li>
+      <li>Rust software system</li>
+      <li>Parallel programming</li>
+      <li>CUDA programming</li>
+      <li>Cloud computing</li>
+    </ul>
+    </ul>
+    
+  </div>
+  <br />
+  <div className="education-item">
+  <h3>University of Ottawa</h3>
+    <p>Honours Bachelor of Science, Computer Science (Data Science Option), 2019 - 2023</p>
+  </div>
+</section>
       <br />
       <br />
       
@@ -170,33 +144,41 @@ function App() {
         <div className="Experience-item">
           <h3>Tianjin Artificial Intelligence Innovation Center</h3>
           <p>Research Intern, May 2021 - Aug 2021, Tianjin, China</p>
-          <p>
-            ● Used python-based deep neural networks to study pupil fixation position recognition and trajectory judgement 
-            in wearable eye-tracking devices, to improve the accuracy of user eye movement prediction. 
-            <br />● Successfully reduced deviation in gaze estimation to 50% in cross-subject conditions 
-            through collaborative research; improved normality of newly collected eye images.
-            <br />● Developed a function to pre-calibrate pupil position for pupil image collection program. 
-            <br />● Verified the effectiveness of Adaptive Batch Normalization (AdaBN) in improving accuracy of cross-subject gaze estimation. 
-          </p>
+          <ul>
+    <ul className="courses-list">
+      <li>Used python-based deep neural networks to study pupil fixation position recognition and trajectory judgement 
+      in wearable eye-tracking devices, to improve the accuracy of user eye movement prediction.</li>
+      <li>Successfully reduced deviation in gaze estimation to 50% in cross-subject conditions 
+      through collaborative research; improved normality of newly collected eye images.</li>
+      <li>Developed a function to pre-calibrate pupil position for pupil image collection program. </li>
+      <li>Verified the effectiveness of Adaptive Batch Normalization (AdaBN) in improving accuracy of cross-subject gaze estimation. </li>
+    </ul>
+    </ul>
+
 
           <h3>Matrix Innovations</h3>
           <p>Junior Programmer, Oct 2022 - Nov 2022, Remote</p>
-          <p>
-            ● Developed an AI chatbot using OpenAI API technologies. 
-            <br />● Implemented ability for chatbot to provide specific answers when users ask questions about stocks and investments.
-            <br />
-            <a
+          <ul>
+    <ul className="courses-list">
+      <li>Developed an AI chatbot using OpenAI API technologies. </li>
+      <li>Implemented ability for chatbot to provide specific answers when users ask questions about stocks and investments.</li>
+      <li><a
               href="https://github.com/DengsongWang/GPT-3-chatbot"
               className="App-link"
               target="_blank"
             >
               github link
-            </a>
-          </p>
+            </a></li>
+    </ul>
+    </ul>
         </div>
       </section>
       <br />
       <br />
+
+
+
+
 
       <section className="Projects">
         <h2>Projects</h2>
@@ -222,7 +204,6 @@ function App() {
               github link
             </a>
           </p>
-
           <h3>3D Model Rendering</h3>
           <p>
           I Used Nerfstudio and 3D Gaussian to render a 3D model of a collection of images inside a room.
@@ -231,7 +212,6 @@ function App() {
               demo video
             </a>
           </p>
-          
           <h3>Parallel Programming, C++:</h3>
           <p>
           My team used parallel programming methods to parallelize a Pac-Man game based on C++, transforming it into an automated game that accommodated multiple independent Pac-Men.
@@ -240,7 +220,6 @@ function App() {
               demo video
             </a>
           </p>
-
           <h3>HTML/CSS, JavaScript & React:</h3>
           <p>
             Designed a website for a virtual baking studio.
@@ -249,7 +228,6 @@ function App() {
               web link
             </a>
           </p>
-
 
           <h3>PostgreSQL:</h3>
           <p>
@@ -264,12 +242,12 @@ function App() {
 
       <section className="Skills">
         <h2>Skills</h2>
-        <h3>Technical Proficiencies:</h3>
+        <h3>Technical Skills:</h3>
         <p>
         Python, SQL, Deep Learning, NLP, Machine learning, 
         CUDA programming, NLP, C/C++, Java, Data analysis, HTML, CSS, JavaScript, React, Node.js, Linux, Git, OpenAI API 
         </p>
-        <h3>Language Proficiencies:</h3>
+        <h3>Language Skills:</h3>
         <p>Bilingual Fluency in Mandarin (Native) & English (Fluent)</p>
       </section>
       <br />
