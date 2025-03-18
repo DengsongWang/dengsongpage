@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dengsongpage/static/css/main.8d656df0.css",
-    "main.js": "/dengsongpage/static/js/main.6420a9f2.js",
+    "main.css": "/dengsongpage/static/css/main.87acbd8e.css",
+    "main.js": "/dengsongpage/static/js/main.efc0feda.js",
     "static/js/787.f98c63ca.chunk.js": "/dengsongpage/static/js/787.f98c63ca.chunk.js",
     "static/media/hezhao.jpg": "/dengsongpage/static/media/hezhao.7f22d816fffdc22e0c2b.jpg",
     "index.html": "/dengsongpage/index.html",
-    "main.8d656df0.css.map": "/dengsongpage/static/css/main.8d656df0.css.map",
-    "main.6420a9f2.js.map": "/dengsongpage/static/js/main.6420a9f2.js.map",
+    "main.87acbd8e.css.map": "/dengsongpage/static/css/main.87acbd8e.css.map",
+    "main.efc0feda.js.map": "/dengsongpage/static/js/main.efc0feda.js.map",
     "787.f98c63ca.chunk.js.map": "/dengsongpage/static/js/787.f98c63ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d656df0.css",
-    "static/js/main.6420a9f2.js"
+    "static/css/main.87acbd8e.css",
+    "static/js/main.efc0feda.js"
   ]
 }
