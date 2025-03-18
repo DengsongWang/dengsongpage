@@ -17,7 +17,7 @@ function App() {
         const targetSection = document.getElementById(targetId);
         const targetHeading = targetSection.querySelector('h2');
         
-        // 计算目标位置 - 定位到屏幕上方2/3处
+        // 计算目标位置 - 定位到屏幕上方1/4处（比高亮触发点更靠上）
         const viewportHeight = window.innerHeight;
         const scrollPosition = targetHeading.getBoundingClientRect().top + window.scrollY - (viewportHeight * 1/3);
         
@@ -30,25 +30,22 @@ function App() {
     });
     
     function highlightNavOnScroll() {
-      // 计算屏幕上方2/3位置点
+      // 高亮触发点仍然保持在屏幕上方1/3处
       const viewportHeight = window.innerHeight;
-      const twoThirdsPoint = window.scrollY + (viewportHeight * 1/3);
+      const triggerPoint = window.scrollY + (viewportHeight * 1/2);
       
-      // 找出最接近2/3位置点的标题
+      // 找出经过触发点的标题
       let activeHeading = null;
       
-      // 检查每个标题
       headings.forEach(heading => {
         const headingTop = heading.getBoundingClientRect().top + window.scrollY;
         
-        // 如果标题已经过了2/3位置点但还没完全离开屏幕
-        if (headingTop <= twoThirdsPoint && 
+        if (headingTop <= triggerPoint && 
             headingTop + heading.parentElement.offsetHeight > window.scrollY) {
           activeHeading = heading;
         }
       });
       
-      // 更新导航链接激活状态
       if (activeHeading) {
         const sectionId = activeHeading.parentElement.getAttribute("id");
         
@@ -62,11 +59,8 @@ function App() {
     }
     
     window.addEventListener("scroll", highlightNavOnScroll);
-    
-    // 初始加载时执行一次
     highlightNavOnScroll();
     
-    // 清理事件监听器
     return () => {
       window.removeEventListener("scroll", highlightNavOnScroll);
       navLinks.forEach(link => {
