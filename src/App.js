@@ -1,11 +1,97 @@
+import React, { useEffect } from "react";
 import face from "./img/hezhao.jpg";
 import "./App.css";
 
 function App() {
+
+  useEffect(() => {
+    const headings = document.querySelectorAll("section[id] > h2");
+    const navLinks = document.querySelectorAll(".nav-link");
+    
+    // 为导航链接添加自定义点击事件
+    navLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+        const targetHeading = targetSection.querySelector('h2');
+        
+        // 计算目标位置 - 定位到屏幕上方2/3处
+        const viewportHeight = window.innerHeight;
+        const scrollPosition = targetHeading.getBoundingClientRect().top + window.scrollY - (viewportHeight * 1/3);
+        
+        // 平滑滚动到目标位置
+        window.scrollTo({
+          top: scrollPosition,
+          behavior: 'smooth'
+        });
+      });
+    });
+    
+    function highlightNavOnScroll() {
+      // 计算屏幕上方2/3位置点
+      const viewportHeight = window.innerHeight;
+      const twoThirdsPoint = window.scrollY + (viewportHeight * 1/3);
+      
+      // 找出最接近2/3位置点的标题
+      let activeHeading = null;
+      
+      // 检查每个标题
+      headings.forEach(heading => {
+        const headingTop = heading.getBoundingClientRect().top + window.scrollY;
+        
+        // 如果标题已经过了2/3位置点但还没完全离开屏幕
+        if (headingTop <= twoThirdsPoint && 
+            headingTop + heading.parentElement.offsetHeight > window.scrollY) {
+          activeHeading = heading;
+        }
+      });
+      
+      // 更新导航链接激活状态
+      if (activeHeading) {
+        const sectionId = activeHeading.parentElement.getAttribute("id");
+        
+        navLinks.forEach(link => {
+          link.classList.remove("active");
+          if (link.getAttribute("href") === `#${sectionId}`) {
+            link.classList.add("active");
+          }
+        });
+      }
+    }
+    
+    window.addEventListener("scroll", highlightNavOnScroll);
+    
+    // 初始加载时执行一次
+    highlightNavOnScroll();
+    
+    // 清理事件监听器
+    return () => {
+      window.removeEventListener("scroll", highlightNavOnScroll);
+      navLinks.forEach(link => {
+        link.removeEventListener('click', function(){});
+      });
+    };
+  }, []);
+  
+
+
   return (
     
     <div className="App">
-      
+      <nav className="navbar">
+  <ul>
+    <li><a href="#about" className="nav-link">About Me</a></li>
+    <li><a href="#job" className="nav-link">Job Intention</a></li>
+    <li><a href="#study" className="nav-link">Recent Study plan</a></li>
+    <li><a href="#education" className="nav-link">Education</a></li>
+    <li><a href="#experience" className="nav-link">Professional Experience</a></li>
+    <li><a href="#projects" className="nav-link">Projects</a></li>
+    <li><a href="#skills" className="nav-link">Skills</a></li>
+    <li><a href="#hobbies" className="nav-link">My Hobbies</a></li>
+  </ul>
+</nav>
       
       <header className="App-header">
         <img src={face} className="App-logo" alt="Dengsong Wang" />
@@ -45,7 +131,7 @@ function App() {
         </p>
       </header>
 
-      <section className="About-me">
+      <section id="about" className="About-me">
         <h2>About Me</h2>
         <p>
           Hi! My name is Dengsong Wang, or you can call me by my English name
@@ -78,7 +164,7 @@ function App() {
       <br />
       
 
-      <section className="WorkPlan">
+      <section id="job" className="WorkPlan">
         <h2>Job Intention</h2>
         <p>
         I will be graduating in December 2024 and am actively looking for full-time, 
@@ -92,7 +178,7 @@ function App() {
       <br />
       <br />
       
-      <section className="RecentStudy">
+      <section id="study" className="RecentStudy">
         <h2>Recent Study plan</h2>
         <p>
         Recently, I've been focusing on improve my SQL skills, starting with MySQL and planning 
@@ -110,7 +196,7 @@ function App() {
       <br />
       
 
-      <section className="Education">
+      <section id="education" className="Education">
   <h2>Education</h2>
   <div className="education-item">
     <h3>University of Toronto</h3>
@@ -139,7 +225,7 @@ function App() {
       <br />
       
 
-      <section className="Professional-Experience">
+      <section id="experience" className="Professional-Experience">
         <h2>Professional Experience</h2>
         <div className="Experience-item">
           <h3>Tianjin Artificial Intelligence Innovation Center</h3>
@@ -180,7 +266,7 @@ function App() {
 
 
 
-      <section className="Projects">
+      <section id="projects" className="Projects">
         <h2>Projects</h2>
         <div className="Project-item">
           <h3>Deep Learning, Python:</h3>
@@ -240,7 +326,7 @@ function App() {
       <br />
       <br />
 
-      <section className="Skills">
+      <section id="skills" className="Skills">
         <h2>Skills</h2>
         <h3>Technical Skills:</h3>
         <p>
@@ -253,7 +339,7 @@ function App() {
       <br />
       <br />
 
-      <section className="My-Hobbies">
+      <section id="hobbies" className="My-Hobbies">
         <h2>My Hobbies</h2>
         <p>
           In sports, I like soccer, basketball, and snowboarding. My favorite
@@ -268,8 +354,11 @@ function App() {
           Red Dead Redemption II, and FIFA. I'm always open to playing or discussing any of these games with others!
         </p>
       </section>
+      <div className="bottom-space"></div>
     </div>
   );
 }
+
+
 
 export default App;
