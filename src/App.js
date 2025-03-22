@@ -78,7 +78,7 @@ function App() {
   <ul>
     <li><a href="#about" className="nav-link">About Me</a></li>
     <li><a href="#job" className="nav-link">Job Intention</a></li>
-    <li><a href="#study" className="nav-link">Recent Study plan</a></li>
+    <li><a href="#study" className="nav-link">Recent Activities</a></li>
     <li><a href="#education" className="nav-link">Education</a></li>
     <li><a href="#experience" className="nav-link">Professional Experience</a></li>
     <li><a href="#projects" className="nav-link">Projects</a></li>
@@ -111,7 +111,7 @@ function App() {
           </a>
         </p>
         <p className="info-text">WeChat: wds2876803389</p>
-        <p className="info-text">Discord: dylanwds</p>
+        <p className="info-text">Tel: 6478849622</p>
         <p className="info-text">
           GitHub:&nbsp;
           <a
@@ -145,11 +145,10 @@ function App() {
           <br /><br /> 
           In September 2023, I returned to Toronto, where my dream had began, and joined my dream school 
           from my high school days, the University of Toronto, to pursue the Master of Engineering 
-          in Electrical and Computer Engineering.  As a newcomer, I am eager to meet more 
-          classmates and industry experts, looking forward to learning and growing in this 
-          new journey.
+          in Electrical and Computer Engineering.  I'm thrilled to share that I've successfully completed my graduate 
+          studies and earned my MEng degree, equipping me with advanced knowledge in cutting-edge technologies and practical engineering solutions.
           <br /><br />
-          If you are interested in my background, or would like to discuss academic and technical topics, 
+          I'm now actively seeking my first professional role in Software Development Engineering, Data Science, or Artificial Intelligence. If you are interested in my background, or would like to discuss academic and technical topics, 
           feel free to connect with me on email, WeChat or Discord. I look forward to interacting with you!
         </p>
         
@@ -161,29 +160,30 @@ function App() {
       <section id="job" className="WorkPlan">
         <h2>Job Intention</h2>
         <p>
-        I will be graduating in December 2024 and am actively looking for full-time, 
-        contract, or internship positions immediately afterward. Ideally, I'd like 
+        I am activitly looking for a full-time, contract, or internship position. Ideally, I'd like 
         to work in Ontario, preferably in the GTA area. I'm open to on-site, hybrid, 
         and remote works. <br /><br />
         The roles that best match my skills include data analyst/engineer, software 
-        developer, NLP programmer, CUDA programmer, and cloud computing programmer.
+        developer, ML/DL engineer, CUDA programmer, and cloud computing programmer.
         </p>
       </section>
       <br />
       <br />
       
       <section id="study" className="RecentStudy">
-        <h2>Recent Study plan</h2>
+        <h2>Recent Activities</h2>
         <p>
-        Recently, I've been focusing on improve my SQL skills, starting with MySQL and planning 
-        to transition to PostgreSQL soon. After building a solid foundation in MySQL, I believe the switch to 
-        PostgreSQL will be efficient. To gain practical experience, I'm solving SQL problems on LeetCode, 
-        which helps me understand real-world applications. As I approach graduation this December, I'm preparing to
-         apply for roles such as data analyst, data engineer, or positions related to my background in NLP and CUDA programming.
+        I'm excited to share that I've recently been involved in organizing the <a
+              href="https://voxel51.com/computer-vision-events/visual-ai-hackathon-march-22-2025/"
+              className="App-link"
+              target="_blank"
+            >
+              Toronto Visual AI Hackathon
+            </a>, a collaborative effort between Voxel51, 
+        IEEE Toronto Section, and Toronto Metropolitan University. The event is scheduled for March 22, 2025, and I'm honored to be serving as one 
+        of the judges.
          <br /><br />
-        In my final semester, I'm also taking courses in NLP and Rust programming. By the end of December, 
-        I expect to have gained more knowledge and valuable project experience in these areas, which 
-        will guide my job search in related fields.
+        
         </p>
       </section>
       <br />
@@ -247,7 +247,7 @@ function App() {
               className="App-link"
               target="_blank"
             >
-              github link
+              Github link
             </a></li>
     </ul>
     </ul>
@@ -263,7 +263,29 @@ function App() {
       <section id="projects" className="Projects">
         <h2>Projects</h2>
         <div className="Project-item">
-          <h3>Deep Learning, Python:</h3>
+
+        <h3>Deep Learning, LLM, LlamaIndexm, OpenAI API, AI Agents:</h3>
+          <p>
+          Created a sneaker recommendation chatbot based on GPT-4o and LlamaIndex. It supports multi-round conversations and can generate personalized sneaker recommendations for users from the own created dataset using vague input from the user.
+            <br />
+            <a
+              href="https://github.com/ece1786-2024/SnkrGenie"
+              className="App-link"
+              target="_blank"
+            >
+              Github link
+            </a>
+            <br />
+            <a
+              href="https://www.youtube.com/watch?v=HudAwqR4ezg"
+              className="App-link"
+              target="_blank"
+            >
+              Simple demo video
+            </a>
+          </p>
+
+          <h3>Deep Learning, NLP:</h3>
           <p>
             In the undergraduate graduation project, I used deep learning to study fake news detection, evaluating four models across nine social media datasets. Demonstrated superior performance of the BERT model on datasets like ISOT and FakeNews, highlighting the importance of preprocessing techniques and hyperparameter tuning in fake news detection and NLP applications.
             <br />
@@ -272,7 +294,7 @@ function App() {
               className="App-link"
               target="_blank"
             >
-              github link
+              Github link
             </a>
           </p>
 
@@ -281,7 +303,7 @@ function App() {
             My team used the CUDA program to accelerate video encoding speed, and finally achieved up to 10 times improvement compared to the best CPU parallel algorithm Ffmpeg.
             <br />
             <a href="https://github.com/DengsongWang/ECE1782-Project/tree/main" className="App-link" target="_blank">
-              github link
+              Github link
             </a>
           </p>
           <h3>3D Model Rendering</h3>
@@ -289,7 +311,7 @@ function App() {
           I Used Nerfstudio and 3D Gaussian to render a 3D model of a collection of images inside a room.
             <br />
             <a href="https://drive.google.com/file/d/1FgMqDFhKkjlSUYvebgTM1xfY6dEhZ_Rr/view?usp=drive_link" className="App-link" target="_blank">
-              demo video
+              Demo video
             </a>
           </p>
           <h3>Parallel Programming, C++:</h3>
@@ -297,7 +319,7 @@ function App() {
           My team used parallel programming methods to parallelize a Pac-Man game based on C++, transforming it into an automated game that accommodated multiple independent Pac-Men.
             <br />
             <a href="https://youtu.be/H49Ioxk-4nY" className="App-link" target="_blank">
-              demo video
+              Demo video
             </a>
           </p>
           <h3>HTML/CSS, JavaScript & React:</h3>
@@ -305,7 +327,7 @@ function App() {
             Designed a website for a virtual baking studio.
             <br />
             <a href="https://DengsongWang.github.io/s5" className="App-link" target="_blank">
-              web link
+              Web link
             </a>
           </p>
 
@@ -324,8 +346,8 @@ function App() {
         <h2>Skills</h2>
         <h3>Technical Skills:</h3>
         <p>
-        Python, SQL, Deep Learning, NLP, Machine learning, 
-        CUDA programming, NLP, C/C++, Java, Data analysis, HTML, CSS, JavaScript, React, Node.js, Linux, Git, OpenAI API 
+        Python, SQL, Deep Learning, NLP, LLM, Spark, numpy, pandas, PyTorch, 
+        TensorFlow, Machine learning, CUDA programming, C/C++, Java, HTML, CSS, JavaScript, React, Node.js, Linux, Git, OpenAI API 
         </p>
         <h3>Language Skills:</h3>
         <p>Bilingual Fluency in Mandarin (Native) & English (Fluent)</p>
