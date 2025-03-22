@@ -148,7 +148,7 @@ function App() {
           in Electrical and Computer Engineering.  I'm thrilled to share that I've successfully completed my graduate 
           studies and earned my MEng degree, equipping me with advanced knowledge in cutting-edge technologies and practical engineering solutions.
           <br /><br />
-          I'm now actively seeking my first professional role in Software Development Engineering, Data Science, or Artificial Intelligence. If you are interested in my background, or would like to discuss academic and technical topics, 
+          I'm now actively seeking my first professional role in SDE, Data, or AI. If you are interested in my background, or would like to discuss academic and technical topics, 
           feel free to connect with me on email, WeChat or Discord. I look forward to interacting with you!
         </p>
         
