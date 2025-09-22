@@ -95,8 +95,8 @@ function App() {
         <br />
         <p className="info-text">
           Email:&nbsp;
-          <a href="mailto:dengsong.wang@mail.utoronto.ca" className="App-link">
-            dengsong.wang@mail.utoronto.ca
+          <a href="mailto:dengsong.wang@alumni.utoronto.ca" className="App-link">
+            dengsong.wang@alumni.utoronto.ca
           </a>
         </p>
         <p className="info-text">
