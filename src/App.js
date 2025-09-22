@@ -146,10 +146,15 @@ function App() {
           In September 2023, I returned to Toronto, where my dream had began, and joined my dream school 
           from my high school days, the University of Toronto, to pursue the Master of Engineering 
           in Electrical and Computer Engineering.  I'm thrilled to share that I've successfully completed my graduate 
-          studies and earned my MEng degree, equipping me with advanced knowledge in cutting-edge technologies and practical engineering solutions.
+          studies and earned my M.Eng degree, equipping me with advanced knowledge in cutting-edge technologies and practical engineering solutions.
           <br /><br />
           I'm now actively seeking my first professional role in SDE, Data, or AI. If you are interested in my background, or would like to discuss academic and technical topics, 
           feel free to connect with me on email, WeChat or Discord. I look forward to interacting with you!
+          <br /><br />
+          <strong>I'm currently practicing LeetCode problems as I know that the interview of junior SDE positions focus mainly on live coding skills. 
+          I've completed the Interview Top 150 using Python and plan to continue practicing them one more time. My next goal is to tackle these 
+          problems using more popular sde languages like Java and C++. 
+          Looking forward to showing you my progress! I'll catch every single interview opportunity! Let's go!</strong>
         </p>
         
       </section>
@@ -163,8 +168,7 @@ function App() {
         I am activitly looking for a full-time, contract, or internship position. Ideally, I'd like 
         to work in Ontario, preferably in the GTA area. I'm open to on-site, hybrid, 
         and remote works. <br /><br />
-        The roles that best match my skills include data analyst/engineer, software 
-        developer, ML/DL engineer, CUDA programmer, and cloud computing programmer.
+        The roles that best match my skills include Software Developer, Data Analyst/Engineer, Machine Laerning Engineer, CUDA programmer, and cloud computing programmer.
         </p>
       </section>
       <br />
@@ -172,19 +176,31 @@ function App() {
       
       <section id="study" className="RecentStudy">
         <h2>Recent Activities</h2>
-        <p>
-        I'm excited to share that I've recently been involved in organizing the <a
-              href="https://voxel51.com/computer-vision-events/visual-ai-hackathon-march-22-2025/"
-              className="App-link"
-              target="_blank"
-            >
-              Toronto Visual AI Hackathon
-            </a>, a collaborative effort between Voxel51, 
-        IEEE Toronto Section, and Toronto Metropolitan University. The event is scheduled for March 22, 2025, and I'm honored to be serving as one 
-        of the judges.
-         <br /><br />
         
-        </p>
+        <h3>
+  <a href="https://voxel51.com/computer-vision-events/visual-ai-hackathon-march-22-2025/"
+     className="App-link"
+     target="_blank">
+    Toronto Visual AI Hackathon 2025
+  </a>
+</h3>
+
+<p>
+  <strong>First Prize Team Member</strong> | March 2025 | Toronto, Ontario
+</p>
+
+<p>
+  I participated in the 2025 Toronto Visual AI Hackathon, an event co-organized by Voxel51, IEEE Toronto, and Toronto Metropolitan University. Together with my talented teammates, we developed an innovative facial recognition classification system focused on safety field, which won first place in the project competition.
+</p>
+
+<p>
+  <a href="https://github.com/GangGreenTemperTatum/toronto-visual-ai-hackathon-2025"
+     className="App-link"
+     target="_blank">
+    View Project on GitHub
+  </a>
+</p>
+        
       </section>
       <br />
       <br />
@@ -264,10 +280,21 @@ function App() {
         <h2>Projects</h2>
         <div className="Project-item">
 
+        <h3>TaskHub - Modern Task Management System</h3>
+        <p><strong>Independent Full Stack Development (Python, JavaScript, SQLAlchemy, React.js)</strong></p>
+          <p>
+          Developed a full-stack task management web application featuring user authentication, project creation, and task tracking functions. Built the backend using Python/Flask with JWT authentication
+           and SQLAlchemy for database management. Created the frontend with React, leveraging Context API for global state management and Bootstrap
+            for responsive design. Implemented a decoupled architecture by hosting the frontend on GitHub Pages and the backend on 
+              PythonAnywhere. <br /><br />
+              <a href="https://dengsongwang.github.io/TaskHub-Project/" className="App-link" target="_blank">View the website</a>
+            
+          </p>
+
         <h3>Deep Learning, LLM, LlamaIndexm, OpenAI API, AI Agents:</h3>
           <p>
           Created a sneaker recommendation chatbot based on GPT-4o and LlamaIndex. It supports multi-round conversations and can generate personalized sneaker recommendations for users from the own created dataset using vague input from the user.
-            <br />
+            <br /><br />
             <a
               href="https://github.com/ece1786-2024/SnkrGenie"
               className="App-link"
@@ -288,7 +315,7 @@ function App() {
           <h3>Deep Learning, NLP:</h3>
           <p>
             In the undergraduate graduation project, I used deep learning to study fake news detection, evaluating four models across nine social media datasets. Demonstrated superior performance of the BERT model on datasets like ISOT and FakeNews, highlighting the importance of preprocessing techniques and hyperparameter tuning in fake news detection and NLP applications.
-            <br />
+            <br /><br />
             <a
               href="https://github.com/DengsongWang/Honours-Project-code-files-"
               className="App-link"
@@ -301,7 +328,7 @@ function App() {
           <h3>CUDA</h3>
           <p>
             My team used the CUDA program to accelerate video encoding speed, and finally achieved up to 10 times improvement compared to the best CPU parallel algorithm Ffmpeg.
-            <br />
+            <br /><br />
             <a href="https://github.com/DengsongWang/ECE1782-Project/tree/main" className="App-link" target="_blank">
               Github link
             </a>
@@ -309,7 +336,7 @@ function App() {
           <h3>3D Model Rendering</h3>
           <p>
           I Used Nerfstudio and 3D Gaussian to render a 3D model of a collection of images inside a room.
-            <br />
+            <br /><br />
             <a href="https://drive.google.com/file/d/1FgMqDFhKkjlSUYvebgTM1xfY6dEhZ_Rr/view?usp=drive_link" className="App-link" target="_blank">
               Demo video
             </a>
@@ -317,7 +344,7 @@ function App() {
           <h3>Parallel Programming, C++:</h3>
           <p>
           My team used parallel programming methods to parallelize a Pac-Man game based on C++, transforming it into an automated game that accommodated multiple independent Pac-Men.
-            <br />
+            <br /><br />
             <a href="https://youtu.be/H49Ioxk-4nY" className="App-link" target="_blank">
               Demo video
             </a>
@@ -325,7 +352,7 @@ function App() {
           <h3>HTML/CSS, JavaScript & React:</h3>
           <p>
             Designed a website for a virtual baking studio.
-            <br />
+            <br /><br />
             <a href="https://DengsongWang.github.io/s5" className="App-link" target="_blank">
               Web link
             </a>
@@ -346,8 +373,13 @@ function App() {
         <h2>Skills</h2>
         <h3>Technical Skills:</h3>
         <p>
-        Python, SQL, Deep Learning, NLP, LLM, Spark, numpy, pandas, PyTorch, 
-        TensorFlow, Machine learning, CUDA programming, C/C++, Java, HTML, CSS, JavaScript, React, Node.js, Linux, Git, OpenAI API 
+        <li><strong>Programming language:</strong> Python, SQL, Java, C, C++, CUDA programming</li>
+        <li><strong>Software Development:</strong> Full-stack development (Flask, SQLAlchemy), HTML, CSS, JavaScript, React.js, Node.js</li>
+        <li><strong>Frameworks and Tools:</strong> TensorFlow, PyTorch, OpenAI API, Git, GitHub, Tableau, Power BI, PowerShell, Bash</li>
+        <li><strong>AI:</strong> Deep Learning, Machine Learning, NLP, LLMs</li>
+        <li><strong>Cloud Platforms:</strong> AWS, PythonAnywhere</li>
+        <li><strong>Systems:</strong> Windows, Linux</li>
+ 
         </p>
         <h3>Language Skills:</h3>
         <p>Bilingual Fluency in Mandarin (Native) & English (Fluent)</p>
